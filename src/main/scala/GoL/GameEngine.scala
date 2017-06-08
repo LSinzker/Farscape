@@ -32,7 +32,6 @@ object GameEngine {
 	 * c) em todos os outros casos a celula morre ou continua morta.
 	 */
 
-  
   def nextGeneration {
     
     val mustRevive = new ListBuffer[Cell]
@@ -111,8 +110,7 @@ object GameEngine {
       throw new IllegalArgumentException
     }
   }
-  
-  
+
   /**
 	 * Retorna o numero de celulas vivas no ambiente. 
 	 * Esse metodo eh particularmente util para o calculo de 

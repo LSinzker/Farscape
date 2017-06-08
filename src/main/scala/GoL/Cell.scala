@@ -1,22 +1,20 @@
 package GoL
 
 /**
-  * @author Jonatas, Juliana and Luisa
-  *         Adapted from code from Breno Xavier
+ * Rerepsentacao de uma celula do GoL 
+ * 
+ * @author Breno Xavier (baseado na implementacao Java de rbonifacio@unb.br
  */
 class Cell {
   
   private var alive = false
 
   /**
-    * Getter for att .alive
-    * @return (Boolean) alive
+    * Setter for att .alive
+    * @return (boolean) alive
     */
   def isAlive = alive
 
-  /**
-    * Setters for Cell attribute alive
-    */
   def kill = alive = false
   def revive = alive = true
 }

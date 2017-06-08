@@ -95,4 +95,4 @@ Para mudar as regras do jogo vá no menu "Rules" e selecione a de preferência.
 O usuário pode mudar a cor das cálulas vivas com os botões de cores no canto superoir esquerdo.
 Existem configurações de células vivas pré setadas no jogo "Pulsar" e "Glider".
 
-[Jonatas Gomes P. Júnior][14/0146407] [Juliana Hosoume][17/0003078] [Luisa Sinzker][14/0151893]
+[Jonatas Gomes Júnior][14/0146407] [Juliana Hosoume][17/0003078] [Luisa Sinzker][14/0151893]
