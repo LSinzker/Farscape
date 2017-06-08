@@ -284,7 +284,3 @@ object View extends JFXApp {
 }
 
 
-/**
-  * https://codingonthestaircase.wordpress.com/2015/03/18/scalafx-alerts-and-dialogs/
-  */
-
