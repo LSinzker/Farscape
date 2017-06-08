@@ -16,6 +16,7 @@ class PopupW {
     initOwner(View.stage)
     title = "Your rule"
     headerText = "Number of Neighbours to:"
+    contentText = "Game of Life Rule"
   }
 
   val finishButtonType = new ButtonType("Finish", ButtonData.OKDone)
