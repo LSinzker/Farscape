@@ -6,6 +6,7 @@ import scalafx.scene.control.Alert.AlertType
 /**
   * Created by Avell 1513 on 08/06/2017.
   */
+
 class PopupError (path: String) {
 
   new Alert(AlertType.Error) {

@@ -8,6 +8,7 @@ import scalafx.scene.control._
 /**
   * Created by Avell 1513 on 08/06/2017.
   */
+
 class PopupSearch {
 
   val dialog = new TextInputDialog(){
@@ -26,13 +27,6 @@ class PopupSearch {
       try {
         val fileContents = Source.fromFile(filePath).getLines.mkString
         println(fileContents)
-        println(fileContents(0))
-        println(fileContents(0).asDigit)
-        println(fileContents(1))
-        println(fileContents(1).asDigit)
-        println(fileContents(2))
-        println(fileContents(2).asDigit)
-
         GameEngine.rule = new NewSetup(fileContents(0).asDigit, fileContents(1).asDigit, fileContents(2).asDigit)
       } catch {
         case ex: Exception => {val ppError = new PopupError(filePath)}
